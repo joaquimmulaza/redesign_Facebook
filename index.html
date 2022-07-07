@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="all.js"></script>
+</head>
+<body>
+    <header id="cabecalho">
+            
+            <button id="btn">Ver Fotos</button>
+
+        <div class="pesquisar">
+            <i class="fab fa-facebook icone"></i>
+            <input type="text" id="caixa" placeholder="Pesquisa no Facebook"> <!-- <button class="btnBusca"><i class="fab fa-sistrix lupa"></i></button> -->
+        </div>
+
+        <nav id="navCab">
+            <ul id="navLink">
+                <li class="links inicio">
+                    <div class="fundoIco">
+                        <a class="inicio2" href="#">
+                            <i class="fas fa-house iconeNav2"></i>
+                        </a>
+                    </div>
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fas fa-circle-user iconeNav"></i>
+                    </a>
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fab fa-facebook-messenger iconeNav"></i>
+                    </a>
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fas fa-bell iconeNav"></i>
+                    </a>               
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fas fa-comments iconeNav"></i>
+                    </a>
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fas fa-people-roof iconeNav"></i>
+                    </a>
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fas fa-font-awesome iconeNav"></i>
+                    </a>
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fas fa-group-arrows-rotate iconeNav"></i>
+                    </a>
+                </li>
+                <li class="links">
+                    <a class="linkNav" href="#">
+                        <i class="fas fa-gear iconeNav"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="publicar">
+        <span id="textSel">Partilhar com:</span> <select name="setPost" id="setPost">
+            <option value="">Apenas eu</option>
+            <option value="">Publico</option>
+        </select><br>
+        <a href="#"><img id="perfil" src="img/IMG-20201214-WA0002.jpg" alt="boneco"></a>
+        <input type="text" id="inputPublicar" placeholder="O que estas a pensar?">
+        <button id="btnPublicar">Publicar</button>
+        <nav id="navPub">
+            <ul id="maisOpt">
+                <li class="linksPub"><a href="#"><i class="fas fa-camera cameraIco icoPub camera"></i>Foto</a></li>
+                <li class="linksPub"><a href="#"><i class="fas fa-video videoIco icoPub"></i>Video</a></li>
+                <li class="linksPub"><a href="#"><i class="fas fa-face-grin emojiIco icoPub"></i>Sentindo-me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="extras">
+        <div class="picture">
+            <img class="imgExtra" src="img/IMG-20201214-WA0002.jpg" alt="">
+        </div><br>
+
+        <div class="info">
+            Dev$tar
+        </div>
+        <hr>
+
+        <div id="campoAmigos">
+            <a href="#" class="linkAmigos"><i class="fas fa-people-roof icoAmigos2"></i>Amigos</a>
+            <p id="amigos">3022</p>
+        </div>
+        <hr>
+
+        <div id="itens">
+            <i class="fas fa-bookmark icoAmigos"></i>
+                <a href="#" class="linkAmigos2">Guardados</a>
+        </div>
+
+    </div>
+
+    <main class="principal">
+        <div id="conteudo">
+           
+            <section id="mensagem">
+                <div id="mensagem2">
+                    Mensagens
+                    <i class="fas fa-pen-to-square icoLapis"></i>
+                    <i class="fas fa-angle-down arrow"></i>
+                </div>
+                <div id="conteudoMsg">
+                    <input type="text"  name="pesquisarMsg" id="pesquisarMsg" placeholder="Pesquisar mensagem"><i class="fab fa-sistrix lupaMsg"></i><br>
+                    <div class="msg1">
+                        <img class="fotoMsg" src="img/IMG-20201214-WA0002.jpg" alt="foto">
+                        <a href="#" id="linkMsg">Narcilia Cristovão</a>
+                        <p class="textoMsg">Olá Kim, tudo bem contigo?</p>
+                    </div>
+                    <hr class="linhaMsg" color="#fff">
+                    <div class="msg1">
+                        <img class="fotoMsg" src="img/img1.jpg" alt="foto">
+                        <a href="#" id="linkMsg">Lio Percy XF</a>
+                        <p class="textoMsg">Mekié mano, como estas?</p>
+                    </div>
+                    <hr class="linhaMsg" color="#fff">
+                    <div class="msg1">
+                        <img class="fotoMsg" src="img/img2.jpg" alt="foto">
+                        <a href="#" id="linkMsg">Elian Moreno</a>
+                        <p class="textoMsg">Wey hoje tem atuação confirmada</p>
+                    </div>
+                    <hr class="linhaMsg" color="#fff">
+                    <div class="msg1">
+                        <img class="fotoMsg" src="img/img4.png" alt="foto">
+                        <a href="#" id="linkMsg">Kelvim Imperial</a>
+                        <p class="textoMsg">Mano conseguiste resolver o bug?</p>
+                    </div>
+                    <hr class="linhaMsg" color="#fff">
+                </div>
+            </section>
+            <div id="pessoas">
+                <div class="feed">
+                    <div class="post1">
+                        <a class="linkPost" href="#">Dev$tar</a><br>
+                        <p class="time">Ha 1 min</p>
+                        <i class="fas fa-clock hora"></i>
+                        <p class="texto">Ser ou não ser.</p>
+                        <ul class="reagir">
+                            <li class="opcoes"><a href="com"><i class="fas fa-thumbs-up"></i></a></li>
+                            <li class="opcoes"><i class="fas fa-comment-dots"></i></li>
+                            <li class="opcoes"><i class="fas fa-bullhorn"></i></li>
+                            <li class="opcoes"><i class="fas fa-bookmark"></i></li>
+                            <li class="opcoes"><i class="fas fa-ellipsis-vertical"></i></li>
+                        </ul>
+                    </div><br>
+                    <div class="post16">
+                        <div class="post2">
+                            <a href="#" class="linkPost">Dev$tar</a>
+                            <p id="textoFoto">atualizou a foto de perfil.</p>
+                        </div><br>
+                        <img src="img/IMG-20201214-WA0002.jpg" alt="boneco" class="imgPost">
+                    </div>
+                </div>
+            <!-- <ul class="reagir">
+                <li class="opcoes">Like</li>
+                <li class="opcoes">Comentar</li>
+                <li class="opcoes">Partilhar</li>
+                <li class="opcoes">Guardar</li>
+                <li class="opcoes">Mais</li>
+            </ul> -->
+            
+        </div>
+            
+    </main>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
